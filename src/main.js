@@ -8,8 +8,8 @@ import './assets/css/px_vw.less'
 import App from './App'
 import router from './router'
 
-import echarts from 'echarts'
-Vue.use(echarts)
+import * as echarts from 'echarts'
+Vue.prototype.$echarts = echarts
 Vue.use(ElementUI)
 Vue.config.productionTip = false
 

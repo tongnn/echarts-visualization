@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import index from '@/views/index'
 import lineChart from '@/views/home/lineChart'
+import itOpration from '@/views/home/itOpration'
 
 Vue.use(Router)
 
@@ -16,6 +17,11 @@ export default new Router({
       path: '/lineChart',
       name: 'lineChart',
       component: lineChart
+    },
+    {
+      path: '/itOpration',
+      name: 'itOpration',
+      component: itOpration
     }
   ]
 })

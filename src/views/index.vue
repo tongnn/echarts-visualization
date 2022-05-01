@@ -18,7 +18,7 @@ export default {
     return {
       arrCharts:[
         {path:'/lineChart',title:'图表1'},
-        {path:'/lineChart',title:'图表2'},
+        {path:'/itOpration',title:'IT运营'},
         {path:'/lineChart',title:'图表3'},
       ]
     }
